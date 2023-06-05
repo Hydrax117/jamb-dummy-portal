@@ -2,11 +2,23 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 0;
+  padding: 16px;
   margin: 0%;
   text-align: center;
+  background-color: green;
 }
 li {
   width: 100%;
   list-style-type: none;
+}
+.Nav {
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+  overflow: hidden;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
