@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-import "./fonts/material-icon/css/material-design-iconic-font.min.css";
-import "./css/style.css";
 import { Link } from "react-router-dom";
-import { set } from "mongoose";
 const imgg = require("./images/signup-image.jpg");
 export const Register = () => {
   const [email, setEmail] = useState("");

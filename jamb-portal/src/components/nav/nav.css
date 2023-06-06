@@ -11,14 +11,28 @@ li {
   width: 100%;
   list-style-type: none;
 }
+
+.title {
+  background-image: url("../../images/jamb-logo.png");
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .Nav {
   padding: 0;
   margin: 0;
-  background-color: gray;
+  background-color: white;
   overflow: hidden;
+  width: 100%;
 }
 html,
 body {
   padding: 0;
   margin: 0;
+}
+@media only screen and (max-width: 1200px) {
+  .title {
+    background-size: 100%;
+  }
 }

@@ -1,22 +1,35 @@
 import "./nav.css";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 
+export const NavLink = styled(Link)`
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    color: #000000;
+  }
+`;
 export const NavBar = () => {
   return (
     <div className="Nav">
-      <div className="title">
-        <h1>Welcome, the banner goes here</h1>
-      </div>
+      <div className="title"></div>
       <ul className="header">
         <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>contact</li>
-        <li>
-          <Link to="/register">Register</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink to="/">Contact</NavLink>
+        </li>
+        <li>
+          <NavLink to="/register">Register</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About</NavLink>
         </li>
       </ul>
     </div>
