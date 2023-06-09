@@ -5,6 +5,7 @@ import { Abt } from "./components/pages/about";
 import { NavBar } from "./components/nav/nav";
 import { Login } from "./components/forms/login";
 import { Register } from "./components/forms/register";
+import { Footer } from "./components/footer/footer";
 export const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ export const App = () => {
           <Route path="/login" Component={Login} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 };

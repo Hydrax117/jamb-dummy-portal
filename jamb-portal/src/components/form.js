@@ -14,7 +14,6 @@ export const Form = styled.div`
   height: 350px;
   padding: 40px;
   background: white;
-  border-radius: 20px 20px;
   box-shadow: 1px 2px 2px 2px;
   @media only screen and (max-width: 1000px) {
     width: 100%;
