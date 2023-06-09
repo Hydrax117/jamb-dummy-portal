@@ -1,3 +1,12 @@
+import styled from "styled-components";
+const FooterContainer = styled.div`
+  background: green;
+  height: 300px;
+`;
 export const Footer = () => {
-  return <h1>This is the footer</h1>;
+  return (
+    <FooterContainer>
+      <h2>Footer</h2>
+    </FooterContainer>
+  );
 };

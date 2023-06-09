@@ -1,5 +1,7 @@
+import React, { useContext } from "react";
 import styled from "styled-components";
 import { TextField } from "@mui/material";
+
 export const TxtField = styled(TextField)`
   width: 95%;
   @media only screen and (max-width: 1000px) {
@@ -24,7 +26,7 @@ export const Form = styled.div`
 `;
 
 export const ErrorMsgContainer = styled.div`
-  height: 30px;
+  height: 32px;
   background: white;
   border: 2px solid white;
   display: none;
@@ -37,10 +39,10 @@ export const Btn = styled.label`
   background: blue;
   cursor: pointer;
   text-align: center;
-  padding: 20px;
-  border-radius: 20px 20px;
+  padding: 16px;
+  border-radius: 16px 16px;
   width: 100px;
-  height: 60px;
+  height: 64px;
   inline-height: 20px;
   color: white;
 `;

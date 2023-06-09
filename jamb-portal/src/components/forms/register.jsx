@@ -46,7 +46,7 @@ export const Register = () => {
             />
             <br /> <br />
             <ErrorMsgContainer id="errorContainer">
-              <ErrorMsg id="error">something happed</ErrorMsg>
+              <ErrorMsg id="error"> </ErrorMsg>
             </ErrorMsgContainer>
             <br /> <br />
             <Btn onClick={handleSubmit}>Submit</Btn>
